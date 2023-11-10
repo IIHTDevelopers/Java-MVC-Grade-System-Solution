@@ -2,11 +2,11 @@
 	mvn clean package -Dmaven.test.skip
 
 * To launch your application, move into the target folder (cd target). Run the following command to run the application:
-	java -jar springboot-grade-service-0.0.1-SNAPSHOT
+	java -jar springboot-grade-system-0.0.1-SNAPSHOT.jar
 
 * Default credentials for MySQL:
 	Username: root
-	Password:
+	Password: pass@word1
 
 * To login to mysql instance: Open new terminal and use following command:
       a.	sudo systemctl enable mysql
